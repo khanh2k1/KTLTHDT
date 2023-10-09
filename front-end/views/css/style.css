@@ -1,0 +1,297 @@
+html,
+body {
+    /* background-color: black; */
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+
+.card-header {
+    background-color: black;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.btn-submit {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.bg-black-fc {
+    background-color: black;
+    color: white;
+}
+
+.list-group-item {
+    border: none;
+    /* Xóa viền cho tất cả các list-group-item */
+}
+
+.list-group-item:hover,
+.list-group-item label:hover {
+    background-color: rgb(38, 37, 37);
+    cursor: pointer;
+    color: rgb(237, 237, 114);
+}
+
+
+.list-group-item {
+    padding-bottom: 20px;
+}
+
+.list-group-item i {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.list-group-item:hover i {
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+
+.list-group-item label {
+    font-weight: 450;
+}
+
+.rim {
+    border-right: 1px solid rgba(65, 65, 65, 0.7);
+}
+
+.rim-vertical {
+    border-bottom: 1px solid rgba(65, 65, 65, 0.7);
+
+}
+
+.container-fluid {
+    height: inherit;
+    /* Kế thừa giá trị height từ thẻ cha */
+}
+
+.container-fluid .row {
+    /* kế thừa thẻ cha */
+    height: inherit;
+
+}
+
+.posts {
+    /* kế thừa thẻ cha */
+    display: flex;
+    /* Sử dụng display: flex để căn giữa ngang và dọc */
+    justify-content: center;
+    /* Căn giữa ngang */
+    align-items: center;
+    /* Căn giữa dọc */
+    width: 55%;
+}
+
+
+.content {
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: #000;
+    display: flex;
+    /* Sử dụng display: flex để căn giữa ngang và dọc */
+    justify-content: center;
+
+}
+
+.bg-black-fc-white-tl {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Ubuntu mono', sans-serif;
+    float: left;
+}
+
+.centered-div {
+    display: flex;
+    /* Sử dụng flexbox để căn giữa các phần tử con */
+    justify-content: center;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    width: 100%;
+}
+
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.img {
+    height: inherit;
+}
+
+
+.username-of-post {
+    height: 40px;
+    color: white;
+    font-size: 15px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.border-box-center {
+    box-sizing: border-box;
+    justify-items: center;
+    text-align: center;
+}
+
+.info-user {
+    width: 20%;
+    line-height: 30px;
+}
+
+.avartar {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+
+.postCreatedAt,
+.usernameOfPost {
+    height: 45px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 7px;
+    color: white
+}
+
+.usernameOfPost {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.card-text {
+    color: white
+}
+
+.items-center {
+    justify-items: center;
+    justify-content: center;
+}
+
+.btn {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    color: yellow;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+.mt-20 {
+    margin-top: 130px;
+}
+
+
+.navigation {
+    position: fixed;
+    width: 16%;
+}
+
+.col {
+    min-height: 100%;
+}
+
+.commentOfUser,
+.comment,
+.createdAt {
+    color: white;
+}
+
+
+.createdAt {
+    font-size: 13px;
+}
+
+.comment {
+    max-width: 50%;
+}
+
+.createdAt {
+    min-width: 60px;
+}
+
+
+.fixed {
+    position: fixed;
+    max-width: 900px;
+    max-height: 900px;
+}
+
+.commentOfUsers {
+    overflow-y: scroll;
+    /* overflow: hidden; */
+    height: 300px;
+}
+
+
+.w-35 {
+    width: 35%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.b-10 {
+    bottom: 10%
+}
+
+.b-5 {
+    bottom: 5%
+}
+
+.color-black {
+    color: black;
+}
+
+.color-white {
+    color: white;
+}
+
+

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- navigation -->
+            <div class="col-2 rim" style="background-color: black;">
+                <div class="row navigation">
+                    <div class="card w-100 h-100 bg-black mt-2 mb-5">
+                        <div class="card-header bg-black-fc-white-tl w-100">
+                            Instagram
+                        </div>
+                        <ul class="list-group list-group-flush" style="font-size: 18px">
+                            <li class="list-group-item bg-black-fc" name="home">
+                                <i class="bi bi-house-door-fill"></i>
+                                <label for="" style="font-weight: 700;">Trang chủ</label>
+                            </li>
+                            <li class="list-group-item bg-black-fc">
+                                <i class="bi bi-search"></i>
+                                <label for="" style="font-weight: 700;">Tìm kiếm</label>
+                            </li>
+                            <li class="list-group-item bg-black-fc">
+                                <i class="bi bi-compass"></i>
+                                <label for="" style="font-weight: 700;">Khám phá</label>
+                            </li>
+                            <li class="list-group-item bg-black-fc">
+                                <i class="bi bi-chat-dots"></i>
+                                <label for="" style="font-weight: 700;">Tin nhắn</label>
+                            </li>
+                            <li class="list-group-item bg-black-fc">
+                                <i class="bi bi-bell"></i>
+                                <label for="" style="font-weight: 700;">Thông báo</label>
+                            </li>
+                            <li class="list-group-item bg-black-fc">
+                                <i class="bi bi-file-plus"></i>
+                                <label for="" style="font-weight: 700;">Tạo bài viết</label>
+                            </li>
+                            <li class="list-group-item bg-black-fc">
+                                <i class="bi bi-person-circle"></i>
+                                <label for="" style="font-weight: 700;">Trang cá nhân</label>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Post content -->
+            <div class="col bg-black rim">
+
+                <!-- stories -->
+                <div class="row bg-black">
+                    <p>Stories</p>
+                </div>
+
+
+                <!-- posts -->
+                <div class="container mt-5">
+                    <div class="mx-auto p-2" style="width: 400px; height: auto">
+
+                        <!-- ................................................................. -->
+                        <!-- a post of user -->
+                        <div class="card bg-black border" style="width: 400px;">
+
+                            <!-- info of user -->
+                            <div class="card " style="width: 397px; height: 48px">
+                                <div class="container h-100 my-auto">
+                                    <img src="../images/phuongdu.jpg" class="avartar my-auto">
+                                    <p class="usernameOfPost">Phương du</p>
+
+                                    <p class="postCreatedAt">2 giờ trước</p>
+
+
+                                    </li>
+                                </div>
+                            </div>
+                            <!-- images of user -->
+                            <div class="card" style="width: 397px;">
+                                <div class="card-body">
+                                    <div id="carouselExampleIndicators" class="carousel slide">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="0" class="active" aria-current="true"
+                                                aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="../images/phuongdu.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="../images/phuongdu.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="../images/phuongdu.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- description of post -->
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                            </div>
+
+                            <!-- Reaction -->
+                            <div class="card border">
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn"><i class="bi bi-heart"></i></button>
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <button class="btn"><i class="bi bi-chat">
+
+                                            </i></button>
+                                    </a>
+                                    <button type="button" class="btn"><i class="bi bi-share"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Suggest new friends -->
+            <div class="col-3">
+                Column
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content" style="background-color: black;">
+                    <div class="modal-body border">
+                        <div class="card w-100 commentOfUsers ">
+                            <ul class="list-group list-group-flush">
+                                <!-- -------------------------------------------------- -->
+                                <div class="hstack gap-3 mt-2 mb-2">
+                                    <div class="hstack gap-3" style="height: fit-content;">
+                                        <img src="../images/test.jpg" class="avartar">
+                                        <div class="me-2 commentOfUser">Phuongdu</div>
+                                    </div>
+
+                                    <div class="comment">Oke hom nay la thu 2
+                                    </div>
+
+                                    <div class="createdAt mb-2">2 hour ago</div>
+                                </div>
+                                <!-- -------------------------------------------------- -->
+
+                                <!-- -------------------------------------------------- -->
+                                <div class="hstack gap-3 mt-2 mb-2 ">
+                                    <div class="hstack gap-3" style="height: fit-content;">
+                                        <img src="../images/test.jpg" class="avartar">
+                                        <div class="me-2 commentOfUser">Phuongdu</div>
+                                    </div>
+
+                                    <div class="comment">Oke hom nay la thu 2
+                                    </div>
+
+                                    <div class="createdAt mb-2">2 hour ago</div>
+                                </div>
+                                <!-- -------------------------------------------------- -->
+                            </ul>
+                        </div>
+                        <div class="card">
+
+                            <div class="hstack gap-3">
+                                <input type="text" class="form-control">
+                                <form action="#" method="post">
+                                    <button class="p-2 avartar"><i class="bi bi-send"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal"><i
+                                class="bi bi-x-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+    <script type="module" src="../js/home.js"></script>
+</body>
+
+</html>
